@@ -1,0 +1,28 @@
+ <!-- File Name: home.ejs
+   Name: Sorada Prathan
+   Student ID: 301270677
+   Date: February 02, 2023
+ -->
+ 
+ <!-- Home Content section -->
+ <% if (title == "Home") { %>  
+    <h1 class="text-center mb-4"><span class="title-text">Welcome to the <%= title %> page</span></h1>
+    <img src="/Assets\images/my_picture.png" class="rounded-circle mx-auto d-block mb-4"  height = "300" width = "300" alt="Cinque Terre">
+    <h1 class="anima mx-auto d-block" ><strong>Sorada Prathan</strong></h1>
+    <figure class="text-center">
+      <blockquote class="blockquote mb-4">
+        <p class="fst-italic">
+          Life is a journey that must be travelled no matter how bad the roads
+          and accomodations.
+        </p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        by <cite title="Source Title">Oliver Goldsmith</cite>
+      </figcaption>
+    </figure>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <a href="/about" class="btn btn-dark btn-lg mr-2" role="button">About Me</a>
+        <a href="/contact" class="btn btn-dark btn-lg" role="button">Contact Me</a>
+    </div>
+    <% } %> 
+  <!-- </div> -->

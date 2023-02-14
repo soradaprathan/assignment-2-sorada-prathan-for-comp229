@@ -1,0 +1,55 @@
+ <!-- File Name: contact.ejs
+   Name: Sorada Prathan
+   Student ID: 301270677
+   Date: February 02, 2023
+ -->
+
+ <!-- Contact Us Content section -->
+ <% if (title == "Contact Me") { %>     
+   
+    <!-- Wrapper Content container -->
+  <div class="container">
+
+    <div class=" text-center">
+        <h1 class="anima mx-auto d-block"> <i class="fas fa-phone-alt"></i> <span class="title-text"><%= title %></span></h1>
+        <h5>Have a question or want to contact for further information?</h5> 
+        <h5>Message me for more information</h5> 
+        <h5> Send me an email at: <i class="fas fa-envelope-open-text"></i>  
+          <a href="mailto:sprathan@my.centennialcollege.ca">sprathan@my.centennialcollege.ca</a>
+        </h5>
+        <p><span style="font-size: xx-large; color: #000080; font-weight: bold;">Fill your details below!</span></p>
+
+    </div>
+
+<!-- Bootstrap 5 starter form -->
+  <form id="contactForm">
+    <div class="mb-3">
+        <iframe class="mx-auto d-block mt-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92172.99949713427!2d-79.29820898492468!3d43.78518291458173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d0f21fd9078f%3A0x46e3fe92c0cd2b18!2sCentennial%20College%20(Progress%20Campus)!5e0!3m2!1sen!2sca!4v1674009056906!5m2!1sen!2sca" width="650" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Name input -->
+    <div class="mb-3">
+      <label class="form-label" for="name">Name</label>
+      <input class="form-control" id="name" type="text" placeholder="Name" />
+    </div>
+
+    <!-- Email address input -->
+    <div class="mb-3">
+      <label class="form-label" for="emailAddress">Email Address</label>
+      <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" />
+    </div>
+    <!-- Message input -->
+    <div class="mb-3">
+      <label class="form-label" for="message">Message</label>
+      <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;"></textarea>
+    </div>
+
+  </form>
+
+   <!-- submit button to the home page -->
+   <div class="d-grid">
+    <a href="/">
+      <button class="btn btn-primary btn-lg">Submit</button>
+    </a>
+  </div>
+
+  <% }  %>

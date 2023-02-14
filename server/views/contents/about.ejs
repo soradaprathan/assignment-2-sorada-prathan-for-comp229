@@ -1,0 +1,43 @@
+<!-- File Name: about.ejs
+   Name: Sorada Prathan
+   Student ID: 301270677
+   Date: February 02, 2023
+ -->
+<!-- About Us Content section -->
+<% if (title == "About Me") { %>
+<div class="container">
+  <div class="text-center">
+    <h1 class="anima mx-auto d-block"><span class="title-text"><%= title %></span></h1>
+    <hr class="intro-divider" />
+    <!-- start about me  -->
+    <img style="margin-bottom: 50px;"
+      src="/Assets\images/sorada_prathan_pix.JPG"
+      class="rounded mx-auto d-block"
+      alt="aboutMe"
+    />
+
+    <!-- <div class="col-lg-12"> -->
+    <p>
+        <span style="margin-top: 50px; text-indent: 2em; font-size: 175%; ">
+            Hi there, I’m Sorada. <br />I'm a Java Developer based in Toronto, Canada.
+            Who experienced in taking fullstack application from scratch to
+            production. I'm currently attending Centennial College, Toronto, Canada as
+            a Software Engineering student. <br />
+            I'm currently open to new projects and job opportunities.
+        </span>
+    </p>
+    <p style="font-size: 175%">My Email: <a href="mailto:sprathan@my.centennialcollege.ca">sprathan@my.centennialcollege.ca</a></p>
+    <p><span style="font-size: 175%">My phone: (437)326-6492 </span></p>
+    <p class="lead">
+    <span style="font-size: 175%; font-weight: bold;">
+      Check out my
+      <a href="https://drive.google.com/file/d/1xl02CCWxWzJCC3e-AEiAAUibl_C8JOZc/view?usp=sharing">Resume</a>
+      here
+    </span>
+    </p>
+
+    <!-- End about me -->
+  </div>
+</div>
+
+<% } %>
