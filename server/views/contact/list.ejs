@@ -7,14 +7,14 @@
     <main class="container">
         <div class="row">
             <div class="offset-md-1 col-md-11">
-                <h1><%= title %></h1>
+                <h1 style="text-align:center;color:blue;margin-top:20px"><%= title %></h1>
 
                 <% if(typeof displayName == 'string' && displayName) {%>
-                    <a href="/contact-list/add" class="btn btn-primary" role="button">
+                    <a href="/contact-list/add" class="btn btn-primary" role="button" style="margin-bottom: 5px">
                     <i class="fas fa-plus-circle"></i> Add a Contact </a>
                 <% } %>
                 <br>
-                <table class="table table-bordered table-striped table-hover">
+                <table class ="table table-bordered table-striped table-dark table-hover">
                     <!-- Header Row -->
                     <tr class="d-flex">
                         <% if(typeof displayName == 'string' && displayName) {%> 
